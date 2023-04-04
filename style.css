@@ -1,0 +1,49 @@
+/* Big Shoulders Display fonts link */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+/* Lexend Deca Display font link */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  /* position: relative; */
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.column-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.column-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.column-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.column {
+  padding: 3rem;
+}
