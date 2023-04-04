@@ -21,13 +21,19 @@ body {
 }
 
 main {
-  max-width: 90rem;
-  margin: 15rem auto;
+  /* max-width: 90rem;
+  margin: 15rem auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .column-1 {
@@ -70,13 +76,14 @@ main {
 
 .btn--link:link,
 .btn--link:visited {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 1.5rem;
   text-decoration: none;
 
   padding: 1rem 1.8rem;
   background-color: hsl(0, 0%, 95%);
   border-radius: 50px;
+  transition: all 0.3s;
 }
 
 .btn-1:link,
