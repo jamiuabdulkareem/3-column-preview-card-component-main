@@ -21,10 +21,8 @@ body {
 }
 
 main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  margin: 15rem auto;
 }
 
 .section {
@@ -68,4 +66,48 @@ main {
   color: hsla(0, 0%, 100%, 0.75);
   margin-bottom: 4.4rem;
   font-weight: 400;
+}
+
+.btn--link:link,
+.btn--link:visited {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  padding: 1rem 1.8rem;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+}
+
+.btn-1:link,
+.btn-1:visited {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-2:link,
+.btn-2:visited {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-3:link,
+.btn-3:visited {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn--link:hover {
+  background: none;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 23em) {
+  .section {
+    /* grid-template-columns: 1fr; */
+  }
+
+  main {
+    /* position: none; */
+  }
 }
