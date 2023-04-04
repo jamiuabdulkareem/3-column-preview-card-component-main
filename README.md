@@ -32,6 +32,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Jamiu Williams AA.](https://dev-jamiu.netlify.app/)
+- Frontend Mentor - [@jamiuabdulkareem](https://www.frontendmentor.io/profile/jamiuabdulkareem)
+- Twitter - [@Jhayone1_2](https://www.twitter.com/jhayone1_2)
